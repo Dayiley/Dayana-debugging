@@ -19,6 +19,7 @@ let maxNumberOfAttempts = 5;
 // <- 32
 // > getRandomNumber(1, 50)
 // <- 11
+setup();
 
 
 function getRandomNumber(min, max) {
@@ -120,5 +121,4 @@ function setup() {
 submitButton.addEventListener('click', checkGuess);
 resetButton.addEventListener('click', setup);
 
-setup();
 
