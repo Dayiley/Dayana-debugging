@@ -104,6 +104,8 @@ function setup() {
   // Reset number of attempts
   //6.fixed value of maxNumberOfAttempts to "5"
   maxNumberOfAttempts = 5;
+  //7. update attempts variable
+  attempts = 0;
 
   // Enable the input and submit button
   
